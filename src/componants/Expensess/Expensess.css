@@ -1,0 +1,8 @@
+.Expensess{
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.671);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+}
