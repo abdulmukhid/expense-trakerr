@@ -39,25 +39,7 @@ const DUMMY_EXPENSE =
 const App = () => {
 
   const [expenses, setExpenses] = useState(DUMMY_EXPENSE);
-// const fetchDeta= async()=>{
-// fetch('http://localhost:3000/api/data')
-//         .then(response =>  response.json()
-//         )
-//         .then(deta => {
-//           console.log(deta)
-//           setExpenses(deta);
-//         })
-
-// };
-// useEffect( ()=>{
-
-//   fetchDeta()
-// },[]);
-
   
-        // .catch(error => {
-        //   console.error('Error fetching data:', error);
-        // });
 
   const parentResive = (expense) => {
     // recived deta from newexpense.js by using props
@@ -73,8 +55,6 @@ const App = () => {
     <div className="App">
       < NewExpensess parentdata={parentResive} />
       <Expensess heading={expenses} />
-
-
 
     </div>
 
